@@ -1,0 +1,1 @@
+pyinstaller --clean -y -n "fractionator" --icon="src\favicon.ico" --noconsole --add-data="src\favicon.ico;files" --add-data="LICENCE.txt;files" --hidden-import tkinter .\src\fractions.py
